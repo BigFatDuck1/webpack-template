@@ -1,0 +1,3 @@
+Tutorial for getting started: https://www.codeinwp.com/blog/webpack-tutorial-for-beginners/
+
+Asset management: https://webpack.js.org/guides/asset-management/
