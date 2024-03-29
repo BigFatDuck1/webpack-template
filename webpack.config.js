@@ -17,4 +17,8 @@ module.exports = {
   ],
 
   mode: 'development', //Change to mode: 'production' when ready to deploy
+  
+  output: {
+    clean: true, //Clean /dist folder before each build
+  }
 };
