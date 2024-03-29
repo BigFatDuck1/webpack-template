@@ -20,5 +20,7 @@ module.exports = {
   
   output: {
     clean: true, //Clean /dist folder before each build
-  }
+  },
+
+  watch: true, //Auto reload on save
 };
