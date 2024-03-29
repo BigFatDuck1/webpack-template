@@ -15,6 +15,14 @@ module.exports = {
         }
     )
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 
   mode: 'development', //Change to mode: 'production' when ready to deploy
   
