@@ -14,5 +14,7 @@ module.exports = {
             inject: "body", //Inject js script in <body> instead of <head>
         }
     )
-  ]
+  ],
+
+  mode: 'development', //Change to mode: 'production' when ready to deploy
 };
